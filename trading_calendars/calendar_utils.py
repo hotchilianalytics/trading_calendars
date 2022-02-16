@@ -40,6 +40,7 @@ from .exchange_calendar_xmex import XMEXExchangeCalendar
 from .exchange_calendar_xmil import XMILExchangeCalendar
 from .exchange_calendar_xmos import XMOSExchangeCalendar
 from .exchange_calendar_xnys import XNYSExchangeCalendar
+from .exchange_calendar_xnor import XNORExchangeCalendar
 from .exchange_calendar_xnze import XNZEExchangeCalendar
 from .exchange_calendar_xosl import XOSLExchangeCalendar
 from .exchange_calendar_xpar import XPARExchangeCalendar
@@ -95,6 +96,7 @@ _default_calendar_factories = {
     'XMIL': XMILExchangeCalendar,
     'XMOS': XMOSExchangeCalendar,
     'XNYS': XNYSExchangeCalendar,
+    'XNOR': XNORExchangeCalendar,
     'XNZE': XNZEExchangeCalendar,
     'XOSL': XOSLExchangeCalendar,
     'XPAR': XPARExchangeCalendar,
@@ -119,6 +121,7 @@ _default_calendar_factories = {
 _default_calendar_aliases = {
     'NYSE': 'XNYS',
     'NASDAQ': 'XNYS',
+    'NYSEORTH': 'XNOR',
     'BATS': 'XNYS',
     'FWB': 'XFRA',
     'LSE': 'XLON',
